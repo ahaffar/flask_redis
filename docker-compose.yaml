@@ -2,7 +2,7 @@ version: '3'
 services:
  web:
   build: .
-  image: "flask_app"
+  image: "alhaffar/flask-redis:1.0"
   ports: 
    - "8088:5000"
  redis:

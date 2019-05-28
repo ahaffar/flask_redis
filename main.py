@@ -24,7 +24,7 @@ def home():
 @app.route("/count")
 def counter():
   page_load_hits =  page_load_counter()
-  return render_template("page_load.html", variable=page_load_hits)
+  return render_template("page_load.html", page_load_hits=page_load_hits)
 
 if __name__=="__main__":
   app.run(debug=True,host='0.0.0.0')
