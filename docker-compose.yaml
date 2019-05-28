@@ -1,0 +1,9 @@
+version: '3'
+services:
+ web:
+  build: .
+  image: "flask_app"
+  ports: 
+   - "8088:5000"
+ redis:
+  image: "redis:alpine"

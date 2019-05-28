@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<meta lang="eng" dir="ltr">
+<head>
+<link rel="stylesheet" href="{{ url_for('static', filename='normalize.css') }}" />
+<link rel="stylesheet" href="{{ url_for('static', filename='skeleton.css') }}" />
+<link href="https://fonts.googleapis.com/css?family=PT+Sans&display=swap" rel="stylesheet">
+<title>Flask redis APP :)</title>
+</head>
+<body>
+<div class="container">
+ <div class="row">
+  <div class="one-column half" style="margin-top:25%; font-family: 'PT Sans', sans-serif;">
+   <h4>WELCOME TO MY FLASK DYNAMIC APP</h4>
+   <p>I have seen you {{ page_load_hits }} times</p>
+  </div>
+ </div>
+</div>
+</body>
+</html>
