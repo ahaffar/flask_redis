@@ -11,7 +11,7 @@ def page_load_counter():
  while True:
   try:
    return redis_server.incr('hits')
-  except redis.exceptions.ConnectionError as exec:
+  except redis.exceptions.ConnectionError as exc:
    if retries == 0:
     raise exc
    retries -=1
