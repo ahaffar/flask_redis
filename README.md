@@ -25,6 +25,7 @@ title: very basic multi-container web app
 # What side effects does this change have?
 -
  ```
+ - For more details please refer to [git commit practices your future self will thank you for][dev]
 # Installation
 * fork the project
 ```bash
@@ -43,3 +44,4 @@ docker-compose up
 ```
 
 [Linus repo]: https://github.com/torvalds/subsurface-for-dirk/commit/b6590150d68df528efd40c889ba6eea476b39873
+[dev]: https://victoria.dev/verbose/git-commit-practices-your-future-self-will-thank-you-for/
