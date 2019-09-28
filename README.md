@@ -3,7 +3,7 @@ description: this is a multi-container web app using FLASK and redis build with 
 title: very basic multi-container web app
 ---
 
-# New Commit Instructions
+## How to Git Commit like a PRO!
  - This repo following the best practices for git commit as per what [__Linus would like__][Linus repo]  
  - There are two __Git global config options__ needs to be configured in order to maintain the __Git Commit__
  ```bash
